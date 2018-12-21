@@ -1,0 +1,32 @@
+body{
+   background-image: radial-gradient(gray, white);
+}
+
+
+li{
+    list-style: none;
+    outline-style: solid;
+    outline-color: #FF6E35;
+    outline-width: thin;
+}
+
+li:hover{
+    background-color: hsla(0, 0%, 85%, 1);
+    /*hsla(17, 100%, 60%, 0.75) orange*/
+    
+}
+
+h5{
+    padding: 10px;
+}
+a{
+    color: #FF6E35;
+}
+
+.center{
+    text-align: center;
+}
+.logo{
+    background-color: black;
+}
+
