@@ -1,5 +1,5 @@
 body{
-   background-image: radial-gradient(gray, white);
+   background-image: radial-gradient(hsla(0, 0%, 63%, 1), white);
 }
 
 
