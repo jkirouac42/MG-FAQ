@@ -1,5 +1,5 @@
 body{
-   background-image: radial-gradient(hsla(0, 0%, 63%, 1), white);
+   background-image: radial-gradient(hsla(50, 0%, 70%, 1), white);
 }
 
 
@@ -11,7 +11,7 @@ li{
 }
 
 li:hover{
-    background-color: hsla(0, 0%, 85%, 1);
+    background-color: hsla(0, 0%, 80%, 1);
     /*hsla(17, 100%, 60%, 0.75) orange*/
     
 }
