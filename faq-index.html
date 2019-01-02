@@ -24,13 +24,14 @@
     <div class="row">
         <div class="col-md-3">
             <ul>
-                <li>
-                    <h5 id="oct">Questions about Octoprint</h5>
-                </li>
+                <li onclick="hide()"><h5>Questions about Troubleshooting</h5></li>
+                <li onclick="hide2()"><h5>Questions about Simplify3D</h5></li>
+                <li onclick="hide1()"><h5>Questions about Octoprint</h5></li>
+                
             </ul>
         </div>
         <div class="col-md-6">
-            <ul class="maint">
+            <ul id="maint">
 
                 <li>
                     <h5 data-toggle="collapse" href="#guide" role="button" aria-expanded="false" aria-controls="guide">S3D Print Quality troubleshooting guide?</h5>
@@ -46,7 +47,7 @@
                     </p>
                 </li>
             </ul>
-            <ul class="s3d">
+            <ul id="s3d">
                 <li>
                     <h5 data-toggle="collapse" href="#s3d" role="button" aria-expanded="false" aria-controls="s3d">What is Simplify3D?</h5>
                     <p class="collapse" id="s3d">Simplify3D is a software program used in combination with the MakerGear 3D printers for preparing dual-extrusion print jobs. <a href="https://makergear.zendesk.com/hc/en-us/articles/360000268063-What-Is-Simplify3D-">What is Simplify3D?</a></p>
@@ -81,7 +82,7 @@
                     </p>
                 </li>
             </ul>
-            <ul class="octoprint">
+            <ul id="octoprint">
                 <li>
                     <h5 data-toggle="collapse" href="#op1" role="button" aria-expanded="false" aria-controls="op1">What is OctoPrint?</h5>
                     <p class="collapse" id="op1">Similar to the way that a car's dashboard offers access to the vehicle's controls, OctoPrint is the interface through which users access and control the MakerGear M3.<br>
@@ -107,10 +108,11 @@
     </div>
     
     <script type="application/javascript" src="faq.js"></script>
-    <script>window.onload = addEventListener;</script>
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.onload = addStuff;</script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
