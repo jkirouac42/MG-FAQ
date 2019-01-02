@@ -1,7 +1,9 @@
-document.getElementById('oct').addEventListener("click", octoprint, false);
+function addEventListener(){
+    document.getElementById('oct').addEventListener("click", hide1, false);
+}
 
-function octoprint{
-    if(document.querySelectorAll('*[id]')!= "oct2" || "oct1"){
-        document.document.querySelectorAll('*[id]')style.display = "none";
-        }
+function hide1(){
+    console.log('works');
+    document.getElementById('s3d').display = "none";
+    document.getElementById('maint').display = "none";
 }
