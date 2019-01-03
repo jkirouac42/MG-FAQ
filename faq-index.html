@@ -29,17 +29,23 @@
     <div class="row">
         <div class="col-md-3">
             <ul>
-                <li onclick="hide()"><h5>Questions about Troubleshooting</h5></li>
-                <li onclick="hide2()"><h5>Questions about Simplify3D</h5></li>
-                <li onclick="hide1()"><h5>Questions about Octoprint</h5></li>
-                
+                <li onclick="hide()">
+                    <h5>Troubleshooting</h5>
+                </li>
+                <li onclick="hide2()">
+                    <h5>Simplify3D</h5>
+                </li>
+                <li onclick="hide1()">
+                    <h5>Octoprint</h5>
+                </li>
+
             </ul>
         </div>
         <div class="col-md-6">
             <ul id="maint">
 
                 <li>
-                    <h5 data-toggle="collapse" href="#guide" role="button" aria-expanded="false" aria-controls="guide">S3D Print Quality troubleshooting guide?</h5>
+                    <h5 data-toggle="collapse" href="#guide" role="button" aria-expanded="false" aria-controls="guide">S3D Print Quality troubleshooting guide</h5>
                     <p class="collapse" id="guide">Simplify3D has come up with a great print troubleshooting guide. <a href="https://www.simplify3d.com/support/print-quality-troubleshooting/">S3D Print Troubleshooting Guide.</a></p>
                 </li>
                 <li>
@@ -59,8 +65,8 @@
             </ul>
             <ul id="s3d">
                 <li>
-                    <h5 data-toggle="collapse" href="#s3d" role="button" aria-expanded="false" aria-controls="s3d">What is Simplify3D?</h5>
-                    <p class="collapse" id="s3d">Simplify3D is a software program used in combination with the MakerGear 3D printers for preparing dual-extrusion print jobs. <a href="https://makergear.zendesk.com/hc/en-us/articles/360000268063-What-Is-Simplify3D-">What is Simplify3D?</a></p>
+                    <h5 data-toggle="collapse" href="#simplify" role="button" aria-expanded="false" aria-controls="simplify">What is Simplify3D?</h5>
+                    <p class="collapse" id="simplify">Simplify3D is a software program used in combination with the MakerGear 3D printers for preparing dual-extrusion print jobs. <a href="https://makergear.zendesk.com/hc/en-us/articles/360000268063-What-Is-Simplify3D-">What is Simplify3D?</a></p>
                 </li>
                 <li>
                     <h5 data-toggle="collapse" href="#fff" role="button" aria-expanded="false" aria-controls="fff">Where do I get the S3D profiles for the M3?</h5>
@@ -116,13 +122,12 @@
 
         <div class="col-md-3"></div>
     </div>
-    
+
     <script type="application/javascript" src="faq.js"></script>
-    <script>window.onload = addStuff;</script>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <script>
+        window.onload = addStuff;
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 

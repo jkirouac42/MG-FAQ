@@ -1,40 +1,40 @@
-body{
-   background-image: radial-gradient(hsla(50, 0%, 70%, 1), white);
+body {
+    background-image: radial-gradient(hsla(50, 0%, 70%, 1), white);
 }
 
 
-li{
+li {
     list-style: none;
-    outline-style: solid;
+    outline-style:solid;
     outline-color: #FF6E35;
-    outline-width: thin;
+    outline-width:thin;
 }
 
-li:hover{
+li:hover {
     background-color: hsla(0, 0%, 80%, 1);
     /*hsla(17, 100%, 60%, 0.75) orange*/
-    
 }
 
-h5{
+h5 {
     padding: 10px;
 }
-a{
+
+a {
     color: #FF6E35;
 }
 
-.center{
+.center {
     text-align: center;
 }
-.logo{
+
+.logo {
     background-color: black;
 }
 
-.fixed{
+.fixed {
     z-index: 1;
     position: fixed;
-    top:0px;
-    width: 100%
+    top: 0px;
+    width: 100%;
     
 }
-
