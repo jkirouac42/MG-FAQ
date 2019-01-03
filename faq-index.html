@@ -26,12 +26,17 @@
     </div>
     <br>
     <br>
+    
+<!--left column -->
     <div class="row">
         <div class="col-md-3">
             <ul>
                 <li onclick="hide()">
                     <h5>Troubleshooting and Hardware</h5>
                 </li>
+                
+                <!--Add a section for printer/network setup-->
+                
                 <li onclick="hide2()">
                     <h5>Simplify3D</h5>
                 </li>
@@ -41,7 +46,11 @@
 
             </ul>
         </div>
+        
+        
+ <!--middle column -->
         <div class="col-md-6">
+<!--Troubleshooting and Hardware -->
             <ul id="maint">
 
                 <li>
@@ -76,6 +85,8 @@
                     </p>
                 </li>
             </ul>
+            
+<!--Simplify3D section -->
             <ul id="s3d">
                 <li>
                     <h5 data-toggle="collapse" href="#simplify" role="button" aria-expanded="false" aria-controls="simplify">What is Simplify3D?</h5>
@@ -111,6 +122,7 @@
                     </p>
                 </li>
             </ul>
+<!--OctoPrint section -->
             <ul id="octoprint">
                 <li>
                     <h5 data-toggle="collapse" href="#op1" role="button" aria-expanded="false" aria-controls="op1">What is OctoPrint?</h5>
@@ -132,9 +144,9 @@
                 </li>
             </ul>
         </div>
-
+<!--third column -->
         <div class="col-md-3"></div>
-    </div>
+        </div>
 
     <script type="application/javascript" src="faq.js"></script>
     <script>
