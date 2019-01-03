@@ -6,7 +6,7 @@ body {
 li {
     list-style: none;
     outline-style:solid;
-    outline-color: #FF6E35;
+    outline-color: hsla(17, 100%, 60%, 0.75);
     outline-width:thin;
 }
 
@@ -14,9 +14,13 @@ li:hover {
     background-color: hsla(0, 0%, 80%, 1);
     /*hsla(17, 100%, 60%, 0.75) orange*/
 }
+h2, p{
+    color: hsla(0, 0%, 25%, 1);
+}
 
 h5 {
     padding: 10px;
+    color: hsla(0, 0%, 25%, 1);
 }
 
 a {
