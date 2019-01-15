@@ -4,58 +4,53 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <title>M3 Frequently Asked Questions</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="faq-css/faq-stylesheet.css">
 </head>
 
 <body>
-    <header class=" fixed center logo "><a href="https://makergear.zendesk.com/hc/en-us"><img src="faq-images/mg-k%20logo.png"></a></header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div class="row">
+        <div class=" col-md-12 fixed center logo "><a href="https://makergear.zendesk.com/hc/en-us"><img src="faq-images/mg-k%20logo.png"></a></div>
+    </div>
     <br>
     <div class="row">
         <div class="col-md-12">
-            <h2 class="center">Frequently Asked Questions</h2>
+            <h2 id="faq" class="center">Frequently Asked Questions</h2>
         </div>
     </div>
     <br>
-    <br>
-    
-<!--left column -->
+
+    <!--left column -->
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 filter">
             <ul>
                 <li onclick="hide()">
                     <h5>Troubleshooting and Hardware</h5>
                 </li>
-                
+
                 <!--Add a section for printer/network setup-->
-                
-                <li onclick="hide2()" >
+
+                <li onclick="hide2()">
                     <h5>Simplify3D</h5>
                 </li>
-                <li onclick="hide3()" >
+                <li onclick="hide3()">
                     <h5>Octoprint</h5>
                 </li>
 
             </ul>
         </div>
-        
-        
- <!--middle column -->
+
+
+        <!--middle column -->
         <div class="col-md-6">
-<!--Troubleshooting and Hardware -->
+            <!--Troubleshooting and Hardware -->
             <ul id="maint" class="multi-collapse">
 
                 <li>
                     <h5 data-toggle="collapse" href="#guide" role="button" aria-expanded="false" aria-controls="guide">Print Quality troubleshooting.</h5>
-                    <p class="collapse" id="guide">Check out the <a href="https://www.simplify3d.com/support/print-quality-troubleshooting/">Simplify3D Print Troubleshooting Guide.</a></p>
+                    <p class="collapse plus-icon" id="guide">Check out the <a href="https://www.simplify3d.com/support/print-quality-troubleshooting/">Simplify3D Print Troubleshooting Guide.</a></p>
                 </li>
                 <li>
                     <h5 data-toggle="collapse" href="#hotend" role="button" aria-expanded="false" aria-controls="hotend">How do I install/uninstall the hotend?</h5>
@@ -65,7 +60,7 @@
                     <h5 data-toggle="collapse" href="#off" role="button" aria-expanded="false" aria-controls="off">How do properly shutdown the printer?</h5>
                     <p class="collapse" id="off">Check out this article on <a href="https://makergear.zendesk.com/hc/en-us/articles/115003074626-Shutting-Down-Your-Printer">How to shutdown the printer.</a></p>
                 </li>
-                 <li>
+                <li>
                     <h5 data-toggle="collapse" href="#noz" role="button" aria-expanded="false" aria-controls="noz">How do I change a V4 nozzle?</h5>
                     <p class="collapse" id="noz">Check out our Knowledge Base article on <a href="https://makergear.zendesk.com/hc/en-us/articles/115005694286-Removing-and-Installing-The-V4-Nozzle">Removing and Installing the V4 Nozzle</a>.</p>
                 </li>
@@ -89,8 +84,8 @@
                     </p>
                 </li>
             </ul>
-            
-<!--Simplify3D section -->
+
+            <!--Simplify3D section -->
             <ul id="s3d">
                 <li>
                     <h5 data-toggle="collapse" href="#simplify" role="button" aria-expanded="false" aria-controls="simplify">What is Simplify3D?</h5>
@@ -113,7 +108,7 @@
                         <a href="https://makergear.zendesk.com/hc/en-us/articles/115004637866-Dual-Color-Printing-with-Simplify3D">Dual color printing with the M3ID.</a></p>
                 </li>
                 <li>
-                    <h5 data-toggle="collapse" href="#duplication" role="button" aria-expanded="false" aria-controls="duplication">How do I setup a Duplication Mode print?</h5>
+                    <h5 data-toggle="collapse" href="#duplication" role="button" aria-expanded="false" aria-controls="duplication">How do I use Duplication Mode?</h5>
                     <p class="collapse" id="duplication">Duplication mode requires two steps. First, you physically need to calibrate the hotends for duplication mode prints. Second, you need to slice your project for Dual extruders with Simplify3D<br>
                         <a href="https://makergear.zendesk.com/hc/en-us/articles/115005873006-M3-Independent-Dual-Duplication-Mode-Setup">Duplication Mode Setup</a><br>
                         <a href="https://makergear.zendesk.com/hc/en-us/articles/115005877606-Duplication-Mode-in-Simplify3D">Duplication Mode in Simplify3D</a></p>
@@ -126,7 +121,7 @@
                     </p>
                 </li>
             </ul>
-<!--OctoPrint section -->
+            <!--OctoPrint section -->
             <ul id="octoprint" class="multi-collapse">
                 <li>
                     <h5 data-toggle="collapse" href="#op1" role="button" aria-expanded="false" aria-controls="op1">What is OctoPrint?</h5>
@@ -148,9 +143,9 @@
                 </li>
             </ul>
         </div>
-<!--third column -->
+        <!--third column -->
         <div class="col-md-3"></div>
-        </div>
+    </div>
 
     <script type="application/javascript" src="faq.js"></script>
 

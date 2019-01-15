@@ -3,6 +3,7 @@ body {
 }
 
 
+
 li {
     list-style: none;
     outline-style:solid;
@@ -12,7 +13,6 @@ li {
 
 li:hover {
     background-color: hsla(0, 0%, 80%, 1);
-    /*hsla(17, 100%, 60%, 0.75) orange*/
 }
 h2, p{
     color: hsla(0, 0%, 25%, 1);
@@ -32,7 +32,7 @@ a {
 }
 
 .logo {
-    background-color: black;
+    background-color: black;    
 }
 
 .fixed {
@@ -42,4 +42,19 @@ a {
     width: 100%;   
 }
 
+#faq{
+    padding-top: 10%;
+    padding-bottom:1%; 
+    
+}
+
+@media screen and (max-width: 768px){
+    body, html{overflow-x: hidden;}    
+    ul{padding: 1%;}
+    br{display: none;}
+    .filter{display: none;}
+    img{width: 85%; height 85%;}
+    #faq{padding-top: 25%;}
+    
+}
 
