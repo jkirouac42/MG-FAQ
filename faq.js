@@ -1,6 +1,10 @@
 
-/*jshint unused:false*/
-/*global $, jQuery, alert*/
+
+function addListeners(){
+    document.getElementById("filter1").addEventListener("click", hide, false);
+    document.getElementById("filter2").addEventListener("click", hide2, false);
+    document.getElementById("filter3").addEventListener("click", hide3, false);
+}
 
 
 function hide(){
